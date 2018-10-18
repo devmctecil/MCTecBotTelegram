@@ -38,7 +38,7 @@ function funcionid($chatId)
 
 function funcionsoporte($chatId)
 {
-	$mensaje = "Atencion a Clientes:%0Aatencionaclientes@mctec-il.com";
+	$mensaje = "Atencion a Clientes:%0Aatencionaclientes@mctec-il.com puedes tambien marcarnos al los números: ";
 	enviarmensaje($chatId,$mensaje);
 }
 
