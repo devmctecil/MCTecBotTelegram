@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "751528376:AAFJLXiYps0a7V0iXemcxlxQO8hQ5OuVasA";
+$botToken = "653915315:AAEIaPHH4qU4dh5WkkvcK32_6khC2DJHzVE";
 $website = "https://api.telegram.org/bot".$botToken;
 
 $update = file_get_contents('php://input');
@@ -38,7 +38,7 @@ function funcionid($chatId)
 
 function funcionsoporte($chatId)
 {
-	$mensaje = "Atencion a Clientes:%0Aatencionaclientes@mctec-il.com puedes tambien marcarnos al los números: ";
+	$mensaje = "Atencion a Clientes:%0Aatencionaclientes@mctec-il.com puedes tambien marcarnos al número: 5552927326";
 	enviarmensaje($chatId,$mensaje);
 }
 
